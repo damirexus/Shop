@@ -1,0 +1,121 @@
+.intro-header {
+    position: relative;
+    margin-bottom: 40px;
+    h2 {
+        width: 100%;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &::before, &::after {
+            display: none;
+        }
+        span {
+            font-size: 70px;
+            color: #FFCE67;
+            display: block;
+        }
+    }
+    #intro-slider {
+        display: none;
+    }
+}
+.frame {
+    position: relative;
+    &::before, &::after {
+        content: " ";
+        position: absolute;
+        width: 130px;
+        height: 60px;
+        display: block;
+        border: 3px solid white;
+        z-index: 5;
+    }
+    &::before {
+        border-bottom: none;
+        border-right: none; 
+        top: 10px;
+        left: 10px;  
+     }
+     &::after {
+        border-top: none;
+        border-left: none; 
+        right: 10px;
+        bottom: 10px;      
+}
+}
+#intro-slider{
+    .carousel-control {
+        background-image: none;
+        opacity: 1;
+    }
+    .carousel-indicators {
+        li {
+            width: 7px;
+            height: 7px;
+            margin: 0;
+        }
+    }
+    .arrow-left, .arrow-right {
+        width: 26px;
+        height: 48px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .arrow-left {
+        background-image: url("../img/arrow-left.png");
+        left: 20%;
+    }
+    .arrow-right {
+        background-image: url("../img/arrow-right.png");
+        right: 20%
+    }
+}
+
+@media(min-width: 768px){
+    .intro-header {
+        > img {
+            display: none;
+        }
+        #intro-slider {
+            display: block;
+            .carousel-indicators {
+                bottom: 0px;
+            }
+        }
+        h2 {
+            padding: 30px 0;
+            width: 620px;
+            background-color:transparentize(#000,.7);
+            &::before, &::after {
+                display: block;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 1200px){
+    .intro-header{
+        margin-bottom: 70px;
+        h2{
+            font-size: 30px;
+            span {
+                font-size: 96px;
+            }
+        }
+        #intro-slider {
+            .carousel-indicators{
+                bottom: 10px;
+            }
+        }
+    }
+}

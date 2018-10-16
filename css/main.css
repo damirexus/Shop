@@ -1,0 +1,1407 @@
+@import url("https://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin-ext");
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_global.scss */
+body {
+  font-family: 'Istok Web', sans-serif;
+  background-color: #eee;
+  color: #333;
+  font-size: 16px;
+}
+
+/* line 8, C:/xampp/htdocs/Shop/scss/partials/_global.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+/* line 12, C:/xampp/htdocs/Shop/scss/partials/_global.scss */
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 17, C:/xampp/htdocs/Shop/scss/partials/_global.scss */
+a {
+  color: #666;
+}
+
+/* line 19, C:/xampp/htdocs/Shop/scss/partials/_global.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_helper.scss */
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.main-header .top-bar {
+  padding: 10px 0;
+}
+
+/* line 4, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.main-header .top-bar a {
+  font-size: 14px;
+  color: #333;
+}
+
+/* line 7, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.main-header .top-bar a:hover {
+  color: #000;
+}
+
+/* line 11, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.main-header .top-bar .phone-info {
+  float: left;
+}
+
+/* line 14, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.main-header .top-bar .login {
+  float: right;
+  text-transform: uppercase;
+}
+
+/* line 20, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar {
+  background-color: #fff;
+  margin-bottom: 0;
+  border: none;
+}
+
+/* line 24, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .navbar-toggle {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+}
+
+/* line 32, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .navbar-toggle .icon-bar {
+  width: 20px;
+  height: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #000;
+}
+
+/* line 37, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 2px;
+}
+
+/* line 42, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar > .containter {
+  position: relative;
+}
+
+/* line 45, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .logo {
+  width: 58px;
+  margin-top: 17px;
+  margin-bottom: 0;
+  float: left;
+}
+
+/* line 51, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder {
+  position: absolute;
+  top: 14px;
+  right: 23px;
+}
+
+/* line 55, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search, .navbar .search-cart-holder .cart {
+  display: inline-block;
+}
+
+/* line 58, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search {
+  position: relative;
+  margin-right: 10px;
+  top: 3px;
+}
+
+/* line 62, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search .form-control {
+  display: block;
+  width: 140px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-left: 4px;
+}
+
+/* line 73, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search .form-control:focus {
+  border-bottom-color: #000;
+}
+
+/* line 77, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search .btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-image: url("../img/search-icon.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 17px;
+  height: 18px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 89, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search .btn:focus {
+  outline: none;
+}
+
+/* line 92, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .search .btn:active {
+  box-shadow: none;
+}
+
+/* line 97, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .cart {
+  position: relative;
+}
+
+/* line 99, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.navbar .search-cart-holder .cart .badge {
+  position: absolute;
+  padding: 4px 6px 5px;
+  background-color: #cc0000;
+  right: -8px;
+  bottom: -8px;
+}
+
+/* line 109, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.nav {
+  padding-bottom: 5px;
+}
+
+/* line 111, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.nav li {
+  text-align: center;
+}
+
+/* line 113, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.nav li a {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 120, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.nav li a:hover, .nav li a:focus {
+  background-color: transparent;
+  border-bottom-color: #ACDACF;
+}
+
+/* line 127, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+.nav .active a {
+  border-bottom: 2px solid #ACDACF;
+}
+
+@media (min-width: 768px) {
+  /* line 136, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .top-bar a {
+    font-size: 16px;
+  }
+  /* line 140, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .logo {
+    width: 80px;
+    margin-top: 10px;
+  }
+  /* line 144, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .nav {
+    padding-bottom: 0;
+  }
+  /* line 147, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .nav li:not(:last-child) {
+    margin-right: 30px;
+  }
+  /* line 152, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .navbar {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 161, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .nav {
+    padding-right: 190px;
+  }
+  /* line 164, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .nav li:last-child {
+    margin-right: 30px;
+  }
+  /* line 169, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .search-cart-holder {
+    top: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 176, C:/xampp/htdocs/Shop/scss/partials/_header.scss */
+  .main-header .logo {
+    width: 104px;
+  }
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.intro-header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* line 4, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.intro-header h2 {
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 14, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.intro-header h2::before, .intro-header h2::after {
+  display: none;
+}
+
+/* line 17, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.intro-header h2 span {
+  font-size: 70px;
+  color: #FFCE67;
+  display: block;
+}
+
+/* line 23, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.intro-header #intro-slider {
+  display: none;
+}
+
+/* line 27, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.frame {
+  position: relative;
+}
+
+/* line 29, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.frame::before, .frame::after {
+  content: " ";
+  position: absolute;
+  width: 130px;
+  height: 60px;
+  display: block;
+  border: 3px solid white;
+  z-index: 5;
+}
+
+/* line 38, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.frame::before {
+  border-bottom: none;
+  border-right: none;
+  top: 10px;
+  left: 10px;
+}
+
+/* line 44, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+.frame::after {
+  border-top: none;
+  border-left: none;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* line 52, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+#intro-slider .carousel-control {
+  background-image: none;
+  opacity: 1;
+}
+
+/* line 57, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+#intro-slider .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 0;
+}
+
+/* line 63, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+#intro-slider .arrow-left, #intro-slider .arrow-right {
+  width: 26px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 70, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+#intro-slider .arrow-left {
+  background-image: url("../img/arrow-left.png");
+  left: 20%;
+}
+
+/* line 74, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+#intro-slider .arrow-right {
+  background-image: url("../img/arrow-right.png");
+  right: 20%;
+}
+
+@media (min-width: 768px) {
+  /* line 82, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header > img {
+    display: none;
+  }
+  /* line 85, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header #intro-slider {
+    display: block;
+  }
+  /* line 87, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header #intro-slider .carousel-indicators {
+    bottom: 0px;
+  }
+  /* line 91, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header h2 {
+    padding: 30px 0;
+    width: 620px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* line 95, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header h2::before, .intro-header h2::after {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 107, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header {
+    margin-bottom: 70px;
+  }
+  /* line 109, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header h2 {
+    font-size: 30px;
+  }
+  /* line 111, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header h2 span {
+    font-size: 96px;
+  }
+  /* line 116, C:/xampp/htdocs/Shop/scss/partials/_intro-header.scss */
+  .intro-header #intro-slider .carousel-indicators {
+    bottom: 10px;
+  }
+}
+
+/* line 2, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .purple {
+  background-color: #7C81EA;
+}
+
+/* line 5, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .green {
+  background-color: #5eb09b;
+}
+
+/* line 8, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .dark-gray {
+  background-color: #333;
+}
+
+/* line 11, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .red {
+  background-color: #cc0000;
+}
+
+/* line 14, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .yellow {
+  background-color: #ffce67;
+}
+
+/* line 17, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .blue {
+  background-color: #389ec5;
+}
+
+/* line 20, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .orange {
+  background-color: #f90;
+}
+
+/* line 23, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .light-blue {
+  background-color: #85C3DC;
+}
+
+/* line 26, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .black {
+  background-color: #000;
+}
+
+/* line 29, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .beige {
+  background-color: beige;
+}
+
+/* line 32, C:/xampp/htdocs/Shop/scss/partials/_color-picks.scss */
+.color-picker .aqua {
+  background-color: #ACDACF;
+}
+
+/* line 2, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* line 8, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-title::after {
+  content: " ";
+  width: 95px;
+  height: 5px;
+  display: block;
+  background-image: url("../img/decoration-line.png");
+  margin: 30px auto 0;
+}
+
+/* line 17, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section p {
+  color: #999;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* line 23, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .collections-holder a {
+  font-size: 26px;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* line 29, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .collections-holder a img {
+  opacity: .8;
+  border-radius: 10px;
+}
+
+/* line 33, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .collections-holder a span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+/* line 42, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .collections-holder .frame::before, .products-section .collections-holder .frame::after {
+  width: 70px;
+  height: 70px;
+  border-width: 2px;
+}
+
+/* line 49, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* line 52, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* line 55, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories li:last-child {
+  margin-right: 0;
+}
+
+/* line 58, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  display: block;
+  border-top: 2px solid transparent;
+}
+
+/* line 64, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories li a:hover {
+  border-top-color: #ACDACF;
+}
+
+/* line 69, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .products-categories li.active a {
+  border-top-color: #ACDACF;
+  color: #000;
+}
+
+/* line 76, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product {
+  margin-bottom: 35px;
+}
+
+/* line 78, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-image-holder {
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 82, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-image-holder > a {
+  display: block;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 88, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-image-holder .hover-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 19px 0;
+  text-align: center;
+  background-color: rgba(133, 195, 220, 0.95);
+}
+
+/* line 96, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-image-holder .hover-list li {
+  display: inline-block;
+  margin: 0 6%;
+}
+
+/* line 102, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-title {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+/* line 105, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-title h3 {
+  font-size: 16px;
+  float: left;
+  margin-bottom: 0;
+}
+
+/* line 109, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-title h3 span {
+  display: block;
+}
+
+/* line 113, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .product-title > span {
+  float: right;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* line 119, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .color-picker {
+  padding: 0 15px;
+}
+
+/* line 121, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .color-picker li {
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 124, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .color-picker li:last-child {
+  margin-right: 0;
+}
+
+/* line 127, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product .color-picker li a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+}
+
+/* line 137, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+.products-section .product:hover .product-image-holder > a {
+  opacity: .6;
+}
+
+@media (max-width: 400px) {
+  /* line 145, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  /* line 151, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section p {
+    margin-bottom: 25px;
+  }
+  /* line 155, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder a {
+    margin-bottom: 30px;
+  }
+  /* line 160, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear:nth-of-type(2n+3) {
+    clear: both;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 166, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section P {
+    margin-bottom: 15px;
+  }
+  /* line 171, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder .frame::before, .products-section .collections-holder .frame::after {
+    width: 130px;
+    height: 60px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+  }
+  /* line 179, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder .frame:hover::before {
+    top: 30px;
+    left: 30px;
+  }
+  /* line 183, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder .frame:hover::after {
+    bottom: 30px;
+    right: 30px;
+  }
+  /* line 190, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .products-categories {
+    margin-bottom: 40px;
+  }
+  /* line 192, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .products-categories li {
+    margin-right: 50px;
+  }
+  /* line 194, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .products-categories li a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 203, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section p {
+    margin-bottom: 70px;
+  }
+  /* line 207, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder a {
+    margin-bottom: 65px;
+  }
+  /* line 211, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .products-categories {
+    margin-bottom: 45px;
+  }
+  /* line 216, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .product .product-image-holder .hover-list {
+    bottom: -61px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+  }
+  /* line 224, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .product:hover .hover-list {
+    bottom: 0;
+  }
+  /* line 230, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear:nth-of-type(2n+3) {
+    clear: none;
+  }
+  /* line 233, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear:nth-of-type(3n+4) {
+    clear: both;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 240, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .collections-holder a {
+    margin-bottom: 55px;
+  }
+  /* line 244, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .products-section .product {
+    margin-bottom: 50px;
+  }
+  /* line 248, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear:nth-of-type(3n+4) {
+    clear: none;
+  }
+  /* line 251, C:/xampp/htdocs/Shop/scss/partials/_products-section.scss */
+  .article-clear:nth-of-type(4n+5) {
+    clear: both;
+  }
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer {
+  color: #fff;
+}
+
+/* line 3, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer a {
+  color: #fff;
+}
+
+/* line 6, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top {
+  background-color: #85C3DC;
+  padding: 50px 0;
+}
+
+/* line 9, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top h3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* line 14, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top .info {
+  color: #598091;
+  margin-bottom: 20px;
+}
+
+/* line 18, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top p {
+  margin-bottom: 0;
+}
+
+/* line 20, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top p a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* line 25, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top .back-to-top {
+  display: none;
+}
+
+/* line 32, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-top .users ul li a:hover {
+  color: #598091;
+}
+
+/* line 40, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom {
+  padding: 15px 0;
+}
+
+/* line 42, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net {
+  text-align: center;
+}
+
+/* line 44, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li {
+  display: inline-block;
+}
+
+/* line 46, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* line 49, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  background-size: cover;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+}
+
+/* line 59, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a.ks {
+  background-image: url("../img/krojacevaskola.png");
+}
+
+/* line 62, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a.fb {
+  background-image: url("../img/facebook.png");
+}
+
+/* line 65, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a.tw {
+  background-image: url("../img/twitter.png");
+}
+
+/* line 68, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a.in {
+  background-image: url("../img/instagram.png");
+}
+
+/* line 71, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a.yt {
+  background-image: url("../img/youtube.png");
+}
+
+/* line 74, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer .footer-bottom .soc-net li a:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  /* line 86, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top {
+    position: relative;
+  }
+  /* line 88, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top h4 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  /* line 93, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top li {
+    margin-bottom: 7px;
+  }
+  /* line 97, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .tags li {
+    margin-bottom: 10px;
+    float: left;
+  }
+  /* line 100, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .tags li:not(:last-child) {
+    margin-right: 10px;
+  }
+  /* line 103, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .tags li a {
+    padding: 6px 10px;
+    background-color: #95D9F6;
+    display: inline-block;
+  }
+  /* line 107, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .tags li a:hover {
+    color: #598091;
+  }
+  /* line 113, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .back-to-top {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-image: url("../img/back-to-top-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  /* line 129, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .back-to-top:hover {
+    background-image: url("../img/back-to-top-blue.png");
+    background-color: #fff;
+  }
+  /* line 136, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net {
+    float: left;
+  }
+  /* line 139, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li:not(:last-child) {
+    margin-right: 0;
+  }
+  /* line 142, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a {
+    width: 20px;
+    height: 20px;
+  }
+  /* line 148, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .footer-nav {
+    float: right;
+    padding-bottom: 0;
+  }
+  /* line 151, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .footer-nav li {
+    float: left;
+  }
+  /* line 153, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .footer-nav li:not(:last-child) {
+    margin-right: 20px;
+  }
+  /* line 156, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .footer-nav li a {
+    color: #666;
+    font-size: 12px;
+    padding: 0 0 3px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 169, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .info {
+    font-size: 14px;
+  }
+  /* line 172, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top p {
+    font-size: 14px;
+  }
+  /* line 176, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom {
+    padding: 25px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 184, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top h4 {
+    margin-top: 50px;
+  }
+  /* line 189, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .tags li a {
+    padding: 9px 13px;
+  }
+  /* line 195, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom {
+    padding: 35px 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 203, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .back-to-top {
+    border-color: #85C3DC;
+    bottom: -65px;
+    background-image: url("../img/back-to-top-blue.png");
+  }
+  /* line 207, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .back-to-top:hover {
+    background-color: #85C3DC;
+    background-image: url("../img/back-to-top-white.png");
+  }
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_detailed-intro-header.scss */
+#article-name {
+  font-size: 16px;
+  color: #666;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* line 9, C:/xampp/htdocs/Shop/scss/partials/_detailed-intro-header.scss */
+#article-name::before {
+  content: "<";
+}
+
+@media (max-width: 768px) {
+  /* line 14, C:/xampp/htdocs/Shop/scss/partials/_detailed-intro-header.scss */
+  body {
+    width: 401px;
+    margin: 0 auto;
+  }
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+#product-id {
+  font-size: 24px;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* line 8, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* line 13, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 370px;
+}
+
+/* line 19, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item {
+  align-self: center;
+}
+
+/* line 23, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2, .bottom-info .wrapper .item4, .bottom-info .wrapper .item6, .bottom-info .wrapper .item8 {
+  text-align: right;
+}
+
+/* line 28, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2 a {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 33, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2 .purple {
+  background-color: #7C81EA;
+}
+
+/* line 36, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2 .green {
+  background-color: #5eb09b;
+}
+
+/* line 39, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2 .dark-gray {
+  background-color: #333;
+}
+
+/* line 43, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item4 {
+  font-size: 24px;
+}
+
+/* line 49, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info input {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+/* line 54, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* line 57, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info input::-webkit-outer-spin-button,
+.bottom-info input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* line 65, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.btn-block {
+  margin-top: 55px;
+  margin-bottom: 70px;
+  height: 40px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #5EB09B;
+  letter-spacing: 1px;
+  border-width: 0px;
+  border-style: none;
+  border-color: none;
+}
+
+@media (min-width: 768px) {
+  /* line 82, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  p {
+    margin-bottom: 20px;
+  }
+  /* line 85, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #product-id {
+    margin-top: 83px;
+    font-size: 24px;
+  }
+  /* line 89, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .wrapper {
+    width: 230px !important;
+  }
+  /* line 91, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .wrapper .item2, .wrapper .item4, .wrapper .item6, .wrapper .item8 {
+    text-align: left !important;
+  }
+  /* line 95, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .btn-block {
+    width: 165px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  /* line 101, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #products-header {
+    display: inline-block !important;
+    margin-top: 0px;
+    margin-bottom: 21px;
+  }
+  /* line 106, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .img-wrap {
+    width: 283px;
+    height: 283px;
+    background-color: white;
+  }
+  /* line 110, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .img-wrap .main-img {
+    height: 100%;
+    margin: 0 auto;
+  }
+  /* line 115, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img {
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  /* line 118, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small {
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* line 125, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 132, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .img-wrap {
+    width: 374px;
+    height: 374px;
+  }
+  /* line 136, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img {
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  /* line 139, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small {
+    width: 63px;
+    height: 63px;
+    background-color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 9px;
+  }
+  /* line 146, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small:last-child {
+    margin-right: 0;
+  }
+  /* line 151, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .btn-block {
+    margin-top: 30px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 156, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .img-wrap {
+    width: 457px;
+    height: 457px;
+  }
+  /* line 159, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  .img-wrap .main-img {
+    width: auto;
+  }
+  /* line 163, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img {
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  /* line 166, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 9px;
+  }
+  /* line 173, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  #list-img .small:last-child {
+    margin-right: 0;
+  }
+}
+
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+#products-header {
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 7, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+#products-header a:hover {
+  border-top: solid 2px #ACDACF;
+  color: #333;
+}
+
+/* line 12, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product {
+  margin-bottom: 35px;
+}
+
+/* line 14, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-image-holder {
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 18, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-image-holder > a {
+  display: block;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 24, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-image-holder .hover-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 19px 0;
+  text-align: center;
+  background-color: rgba(133, 195, 220, 0.95);
+}
+
+/* line 32, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-image-holder .hover-list li {
+  display: inline-block;
+  margin: 0 6%;
+}
+
+/* line 38, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-title {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+/* line 41, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-title h3 {
+  font-size: 16px;
+  float: left;
+  margin-bottom: 0;
+}
+
+/* line 45, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-title h3 span {
+  display: block;
+}
+
+/* line 49, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product .product-title > span {
+  float: right;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* line 58, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+.product:hover .product-image-holder > a {
+  opacity: .6;
+}
+
+@media (min-width: 768px) {
+  /* line 66, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 72, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #hide {
+    display: none !important;
+  }
+  /* line 75, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  .btn-block {
+    margin-top: 35px;
+  }
+  /* line 78, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #products-header {
+    margin-bottom: 40px;
+  }
+  /* line 83, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  .product .product-image-holder .hover-list {
+    bottom: -61px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+  }
+  /* line 91, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  .product:hover .hover-list {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 98, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #article-name {
+    margin-bottom: 45px;
+  }
+  /* line 101, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #product-id {
+    margin-top: 96px;
+  }
+  /* line 104, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #hide {
+    display: block !important;
+  }
+  /* line 108, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #small-pics li {
+    margin-right: 14px;
+    margin-bottom: 70px;
+  }
+  /* line 110, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #small-pics li:last-child {
+    margin-right: 0;
+  }
+  /* line 114, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #small-pics li a {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 117, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  #small-pics li a img {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 125, C:/xampp/htdocs/Shop/scss/partials/_detailed-other-products.scss */
+  .img-holder img {
+    margin: 0 auto;
+    width: 454px;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */

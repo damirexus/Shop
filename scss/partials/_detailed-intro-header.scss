@@ -1,0 +1,21 @@
+#article-name {
+    font-size: 16px;
+    color: $link-color;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    display: block;
+}
+#article-name::before {
+    content: "<";
+}
+
+@media (max-width:768px) {
+    body{
+        width: 401px;
+        margin: 0 auto;
+    }
+}
+
+
+

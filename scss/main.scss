@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin-ext');
+
+
+
+@import "partials/variables";
+@import "partials/global";
+@import "partials/mixins";
+@import "partials/helper";
+@import "partials/header";
+@import "partials/intro-header";
+@import "partials/color-picks";
+@import "partials/products-section";
+@import "partials/footer";
+
+//detailed - page
+
+@import "partials/detailed-intro-header";
+@import "partials/detailed-product-info";
+@import "partials/detailed-other-products";

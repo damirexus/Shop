@@ -1,0 +1,22 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    background-color: $bkg-color;
+    color: $main-color;
+    font-size: 16px;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+a {
+    color: $link-color;
+    &:hover {
+        color: $link-hover;
+    }
+}
