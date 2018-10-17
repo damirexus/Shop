@@ -37,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navigation">
             <nav>
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Naslovna</a></li>
+                <li class="active"><a href="index.html">Naslovna</a></li>
                 <li><a href="#">Prodavnica</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">O nama</a></li>
@@ -66,22 +66,23 @@
     <main>
       <!-- Product Info-->
       <div class="container">
-        <div class="row">
+        <div class="row" id="mainRow_d">
+            <script id="template_d" type="template">
           <div class="col-sm-5 img-holder">
-            <span id="article-name">Ženska majica Cosmos</span>
+            <span id="article-name">{{productTitle}} {{model}}</span>
             <div class="img-wrap">
-              <img src="img/product1.jpg" alt="product1" class="main-img img-responsive">
+              <img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="main-img img-responsive">
             </div>
             <div class="clearfix hidden-xs" id="list-img">
-              <div class="small"><a href="#"><img src="img/product1.jpg" alt="product1" class="img-responsive" ></a></div>
-              <div class="small"><a href="#"><img src="img/product1.jpg" alt="product1" class="img-responsive"></a></div>
-              <div class="small"><a href="#"><img src="img/product1.jpg" alt="product1" class="img-responsive"></a></div>
-              <div class="small"><a href="#"><img src="img/product1.jpg" alt="product1" class="img-responsive"></a></div>
-              <div class="small"><a href="#"><img src="img/product1.jpg" alt="product1" class="img-responsive"></a></div>
+              <div class="small"><a href="#"><img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive" ></a></div>
+              <div class="small"><a href="#"><img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive"></a></div>
+              <div class="small"><a href="#"><img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive"></a></div>
+              <div class="small"><a href="#"><img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive"></a></div>
+              <div class="small"><a href="#"><img src="img/{{imgSrc}}.jpg" alt="{{productTitle}}" class="img-responsive"></a></div>
             </div>
           </div>
           <div class="col-sm-7">
-            <span id="product-id">Ženska majica Cosmos</span>
+            <span id="product-id">{{productTitle}} {{model}}</span>
             <p id="product-info">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
             </p>
@@ -89,12 +90,12 @@
               <div class="wrapper">
                 <div class="item item1">Boja:</div>
                 <div class="item item2">
-                  <a href="#" class="purple"></a>
-                  <a href="#" class="green"></a>
-                  <a href="#" class="dark-gray"></a>
+                  <a href="#" class="{{color0}}"></a>
+                  <a href="#" class="{{color1}}"></a>
+                  <a href="#" class="{{color2}}"></a>
               </div>
                 <div class="item item3">Cena:</div>
-                <div class="item item4">2,990 RSD</div>
+                <div class="item item4">{{price}} RSD</div>
                 <div class="item item5">Dostava</div>
                 <div class="item item6">Besplatna</div>
                 <div class="item item7">Količina</div>
@@ -105,72 +106,10 @@
               <button class="btn-block">Ubaci u korpu</button>
             </div>
           </div>
+        </script>
         </div>
       </div>
       <!-- Product Info END-->
-
-      <!-- Product Info-->
- <div class="container dynamic-content" id="product4">
-  <div class="row">
-    <div class="col-sm-5 img-holder">
-      <span id="article-name">Ženska bluza Cosmos</span>
-      <div class="img-wrap">
-        <img src="img/product4.jpg" alt="product4" class="main-img img-responsive">
-      </div>
-      <div class="clearfix hidden-xs" id="list-img">
-        <div class="small"><a href="#"><img src="img/product4.jpg" alt="product1" class="img-responsive" ></a></div>
-        <div class="small"><a href="#"><img src="img/product4.jpg" alt="product1" class="img-responsive"></a></div>
-        <div class="small"><a href="#"><img src="img/product4.jpg" alt="product1" class="img-responsive"></a></div>
-        <div class="small"><a href="#"><img src="img/product4.jpg" alt="product1" class="img-responsive"></a></div>
-        <div class="small"><a href="#"><img src="img/product4.jpg" alt="product1" class="img-responsive"></a></div>
-      </div>
-    </div>
-    <div class="col-sm-7">
-      <span id="product-id">Ženska bluza Cosmos</span>
-      <p id="product-info">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-      </p>
-      <div class="bottom-info clearfix">
-        <div class="wrapper">
-          <div class="item item1">Boja:</div>
-          <div class="item item2">
-            <a href="#" class="purple"></a>
-            <a href="#" class="green"></a>
-            <a href="#" class="dark-gray"></a>
-        </div>
-          <div class="item item3">Cena:</div>
-          <div class="item item4">5,500 RSD</div>
-          <div class="item item5">Dostava</div>
-          <div class="item item6">Besplatna</div>
-          <div class="item item7">Količina</div>
-          <div class="item item8">
-            <input type="number">
-          </div>
-        </div>
-        <button class="btn-block">Ubaci u korpu</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Product Info END-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -183,7 +122,7 @@
             <article class="product">
               <!-- Image Holder -->
               <div class="product-image-holder">
-                <a href="#">
+                <a href="#" json-index="1">
                 <img class="img-responsive" src="img/product4.jpg" alt="Ženska bluza">
                 </a>
                 <!-- Hover List -->
@@ -215,7 +154,7 @@
             <article class="product">
               <!-- Image Holder -->
               <div class="product-image-holder">
-                <a href="#">
+                <a href="#" json-index="2"> 
                 <img class="img-responsive" src="img/product10.jpg" alt="product10">
                 </a>
                 <!-- Hover List -->
@@ -247,7 +186,7 @@
             <article class="product">
               <!-- Image Holder -->
               <div class="product-image-holder">
-                <a href="#">
+                <a href="#" json-index="3">
                 <img class="img-responsive" src="img/product11.jpg" alt="product11">
                 </a>
                 <!-- Hover List -->
@@ -279,7 +218,7 @@
             <article class="product">
               <!-- Image Holder -->
               <div class="product-image-holder">
-                <a href="#">
+                <a href="#" json-index="4">
                 <img class="img-responsive" src="img/product7.jpg" alt="product7">
                 </a>
                 <!-- Hover List -->
@@ -384,6 +323,6 @@
     <!-- Main Footer END-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/detailed.js"></script>
   </body>
 </html>

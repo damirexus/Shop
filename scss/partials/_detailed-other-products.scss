@@ -52,7 +52,7 @@
             text-transform: uppercase;
         }
     }
-    
+
      &:hover {
          .product-image-holder{
              > a {
@@ -64,7 +64,7 @@
 
 @media (min-width:768px){
     #hide {
-        display: none !important; 
+        display: none !important;
       }
    }
 
@@ -128,4 +128,3 @@
        }
    }
 }
-

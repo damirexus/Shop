@@ -1082,39 +1082,44 @@ p {
 }
 
 /* line 36, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+.bottom-info .wrapper .item2 .red {
+  background-color: #cc0000;
+}
+
+/* line 39, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info .wrapper .item2 .green {
   background-color: #5eb09b;
 }
 
-/* line 39, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 42, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info .wrapper .item2 .dark-gray {
   background-color: #333;
 }
 
-/* line 43, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 46, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info .wrapper .item4 {
   font-size: 24px;
 }
 
-/* line 49, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 52, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info input {
   height: 30px;
   width: 30px;
   text-align: center;
 }
 
-/* line 54, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 57, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info input[type='number'] {
   -moz-appearance: textfield;
 }
 
-/* line 57, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 60, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .bottom-info input::-webkit-outer-spin-button,
 .bottom-info input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-/* line 65, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+/* line 68, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
 .btn-block {
   margin-top: 55px;
   margin-bottom: 70px;
@@ -1129,53 +1134,53 @@ p {
 }
 
 @media (min-width: 768px) {
-  /* line 82, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 85, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   p {
     margin-bottom: 20px;
   }
-  /* line 85, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 88, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #product-id {
     margin-top: 83px;
     font-size: 24px;
   }
-  /* line 89, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 92, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .wrapper {
     width: 230px !important;
   }
-  /* line 91, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 94, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .wrapper .item2, .wrapper .item4, .wrapper .item6, .wrapper .item8 {
     text-align: left !important;
   }
-  /* line 95, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 98, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .btn-block {
     width: 165px;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 70px;
   }
-  /* line 101, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 104, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #products-header {
     display: inline-block !important;
     margin-top: 0px;
     margin-bottom: 21px;
   }
-  /* line 106, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 109, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .img-wrap {
     width: 283px;
     height: 283px;
     background-color: white;
   }
-  /* line 110, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 113, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .img-wrap .main-img {
     height: 100%;
     margin: 0 auto;
   }
-  /* line 115, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 118, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img {
     margin-top: 20px;
     margin-bottom: 70px;
   }
-  /* line 118, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 121, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small {
     width: 44px;
     height: 44px;
@@ -1184,24 +1189,24 @@ p {
     display: inline-block;
     margin-right: 10px;
   }
-  /* line 125, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 128, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small:last-child {
     margin-right: 0;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 132, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 135, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .img-wrap {
     width: 374px;
     height: 374px;
   }
-  /* line 136, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 139, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img {
     margin-top: 20px;
     margin-bottom: 70px;
   }
-  /* line 139, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 142, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small {
     width: 63px;
     height: 63px;
@@ -1210,32 +1215,32 @@ p {
     display: inline-block;
     margin-right: 9px;
   }
-  /* line 146, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 149, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small:last-child {
     margin-right: 0;
   }
-  /* line 151, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 154, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .btn-block {
     margin-top: 30px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 156, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 159, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .img-wrap {
     width: 457px;
     height: 457px;
   }
-  /* line 159, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 162, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   .img-wrap .main-img {
     width: auto;
   }
-  /* line 163, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 166, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img {
     margin-top: 20px;
     margin-bottom: 70px;
   }
-  /* line 166, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 169, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small {
     width: 80px;
     height: 80px;
@@ -1244,7 +1249,7 @@ p {
     display: inline-block;
     margin-right: 9px;
   }
-  /* line 173, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
+  /* line 176, C:/xampp/htdocs/Shop/scss/partials/_detailed-product-info.scss */
   #list-img .small:last-child {
     margin-right: 0;
   }

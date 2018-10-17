@@ -1,0 +1,57 @@
+[
+{
+    "imgSrc": "product1",
+    "productTitle": "Ženska majica",
+    "model": "Cosmos",
+    "price": "3.500",
+    "colors": [
+        "purple",
+        "red",
+        "green"
+    ]
+},
+{
+    "imgSrc": "product4",
+    "productTitle": "Ženska bluza",
+    "model": "Cosmos",
+    "price": "5.500",
+    "colors": [
+        "red",
+        "green",
+        "purple"
+    ]
+},
+{
+    "imgSrc": "product10",
+    "productTitle": "Ženska bluza",
+    "model": "North west",
+    "price": "4.880",
+    "colors": [
+        "purple",
+        "green",
+        "red"
+    ]
+},
+{
+    "imgSrc": "product11",
+    "productTitle": "Ženska kosulja",
+    "model": "North west",
+    "price": "2.100",
+    "colors": [
+        "purple",
+        "green",
+        "red"
+    ]
+},
+{
+    "imgSrc": "product7",
+    "productTitle": "Ženski duks",
+    "model": "North west",
+    "price": "5.880",
+    "colors": [
+        "purple",
+        "green",
+        "red"
+    ]
+}
+]

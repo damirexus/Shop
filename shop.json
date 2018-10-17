@@ -15,228 +15,228 @@
     "action" : false
 },
 {
-"imgSrc": "product12",
-"productTitle": "Muška majica",
-"model": "Legendary",
-"price": "4.500",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product12",
+    "productTitle": "Muška majica",
+    "model": "Legendary",
+    "price": "4.500",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "male",
-"newCol" : true,
-"popular" : false,
-"action" : true
+    "colection": "male",
+    "newCol" : true,
+    "popular" : false,
+    "action" : true
 },
 {
-"imgSrc": "product2",
-"productTitle": "Ženski duks",
-"model": "X style",
-"price": "6.000",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product2",
+    "productTitle": "Ženski duks",
+    "model": "X style",
+    "price": "6.000",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : false,
-"popular" : false,
-"action" : false
+    "colection": "female",
+    "newCol" : false,
+    "popular" : false,
+    "action" : false
 },
 {
-"imgSrc": "product13",
-"productTitle": "Muški duks",
-"model": "Frogster",
-"price": "4.500",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product13",
+    "productTitle": "Muški duks",
+    "model": "Frogster",
+    "price": "4.500",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "male",
-"newCol" : true,
-"popular" : true,
-"action" : false
+    "colection": "male",
+    "newCol" : true,
+    "popular" : true,
+    "action" : false
 },
 {
-"imgSrc": "product3",
-"productTitle": "Ženski dzemper",
-"model": "X style",
-"price": "6.500",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product3",
+    "productTitle": "Ženski dzemper",
+    "model": "X style",
+    "price": "6.500",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : true,
-"action" : false
+    "colection": "female",
+    "newCol" : true,
+    "popular" : true,
+    "action" : false
 },
 {
-"imgSrc": "product14",
-"productTitle": "Muška jakna",
-"model": "V style",
-"price": "12.000",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product14",
+    "productTitle": "Muška jakna",
+    "model": "V style",
+    "price": "12.000",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "male",
-"newCol" : false,
-"popular" : false,
-"action" : true
+    "colection": "male",
+    "newCol" : false,
+    "popular" : false,
+    "action" : true
 },
 {
-"imgSrc": "product4",
-"productTitle": "Ženska bluza",
-"model": "Cosmos",
-"price": "5.500",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product4",
+    "productTitle": "Ženska bluza",
+    "model": "Cosmos",
+    "price": "5.500",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : true,
-"action" : false
+    "colection": "female",
+    "newCol" : true,
+    "popular" : true,
+    "action" : false
 },
 {
-"imgSrc": "product15",
-"productTitle": "Muški duks",
-"model": "North west",
-"price": "4.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product15",
+    "productTitle": "Muški duks",
+    "model": "North west",
+    "price": "4.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "male",
-"newCol" : true,
-"popular" : false,
-"action" : true
+    "colection": "male",
+    "newCol" : true,
+    "popular" : false,
+    "action" : true
 },
 {
-"imgSrc": "product5",
-"productTitle": "Ženska bluza",
-"model": "North west",
-"price": "11.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product5",
+    "productTitle": "Ženska bluza",
+    "model": "North west",
+    "price": "11.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : false,
-"action" : false
+    "colection": "female",
+    "newCol" : true,
+    "popular" : false,
+    "action" : false
 },
 {
-"imgSrc": "product16",
-"productTitle": "Muški prsluk",
-"model": "North west",
-"price": "4.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product16",
+    "productTitle": "Muški prsluk",
+    "model": "North west",
+    "price": "4.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "male",
-"newCol" : false,
-"popular" : true,
-"action" : false
+    "colection": "male",
+    "newCol" : false,
+    "popular" : true,
+    "action" : false
 },
 {
-"imgSrc": "product6",
-"productTitle": "Ženska bluza",
-"model": "North west",
-"price": "4.280",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product6",
+    "productTitle": "Ženska bluza",
+    "model": "North west",
+    "price": "4.280",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : false,
-"action" : true
+    "colection": "female",
+    "newCol" : true,
+    "popular" : false,
+    "action" : true
 },
 {
-"imgSrc": "product7",
-"productTitle": "Ženski duks",
-"model": "North west",
-"price": "5.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product7",
+    "productTitle": "Ženski duks",
+    "model": "North west",
+    "price": "5.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : false,
-"action" : false
+    "colection": "female",
+    "newCol" : true,
+    "popular" : false,
+    "action" : false
 },
 {
-"imgSrc": "product8",
-"productTitle": "Ženska majica",
-"model": "North west",
-"price": "8.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product8",
+    "productTitle": "Ženska majica",
+    "model": "North west",
+    "price": "8.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : false,
-"popular" : false,
-"action" : true
+    "colection": "female",
+    "newCol" : false,
+    "popular" : false,
+    "action" : true
 },
 {
-"imgSrc": "product9",
-"productTitle": "Ženska majica",
-"model": "North west",
-"price": "1.990",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product9",
+    "productTitle": "Ženska majica",
+    "model": "North west",
+    "price": "1.990",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : false,
-"popular" : true,
-"action" : true
+    "colection": "female",
+    "newCol" : false,
+    "popular" : true,
+    "action" : true
 },
 {
-"imgSrc": "product10",
-"productTitle": "Ženska bluza",
-"model": "North west",
-"price": "4.880",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product10",
+    "productTitle": "Ženska bluza",
+    "model": "North west",
+    "price": "4.880",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : true,
-"popular" : false,
-"action" : false
+    "colection": "female",
+    "newCol" : true,
+    "popular" : false,
+    "action" : false
 },
 {
-"imgSrc": "product11",
-"productTitle": "Ženska kosulja",
-"model": "North west",
-"price": "2.100",
-"colors": [
-"purple",
-"green",
-"red"
+    "imgSrc": "product11",
+    "productTitle": "Ženska kosulja",
+    "model": "North west",
+    "price": "2.100",
+    "colors": [
+    "purple",
+    "green",
+    "red"
 ],
-"colection": "female",
-"newCol" : false,
-"popular" : false,
-"action" : true
+    "colection": "female",
+    "newCol" : false,
+    "popular" : false,
+    "action" : true
 }
 ]
